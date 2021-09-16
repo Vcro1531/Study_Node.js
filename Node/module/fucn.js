@@ -8,4 +8,4 @@ function checkOddOrEven(num) {
 	return even;
 }
 
-module.export = checkOddOrEven;
+module.exports = checkOddOrEven;
