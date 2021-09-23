@@ -1,0 +1,21 @@
+Process
+
+//process객체 안에는 다양한 속성이 있음.(아래 예제)
+//정보들의 사용 빈도는 높지 않음. 일반적으로 운영체제나 실행 환경별로 다른 동작을 하고싶을 때 사용.
+
+> process.version
+'v14.16.1'  //설치된 노드의 버전
+> process.arch
+'x64'       //프로세서 아키텍처 정보
+> process.platform
+'win32'     //운영체제 플랫폼 정보
+> process.pid
+129564      //현재 프로세스 아이디
+> process.uptime()
+50.2671306  //프로세스가 시작된 후 흐른 시간
+> process.execPath
+'C:\\Program Files\\nodejs\\node.exe'   //노드의 경로
+> process.cwd()    
+'C:\\Study_Node.js'     //현재 프로세스가 실행되는 위치
+> process.cpuUsage()
+{ user: 906000, system: 343000 }        //현재 cpu 사용량
